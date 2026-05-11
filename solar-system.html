@@ -354,10 +354,13 @@ bpy.context.scene.frame_end   = <span class="c-num">365</span>
   </div>
 </div>
 
-      <div class="media-card">
+<div class="media-card">
   <div class="media-embed">
-    <video autoplay muted loop playsinline>
-      <source src="mercury.mkv" type="video/mkv">
+    <video autoplay muted loop playsinline poster="mercury-thumbnail.jpg">
+      <source src="mercury.webm" type="video/webm">
+      <source src="mercury.mp4" type="video/mp4">
+      <!-- Fallback text -->
+      Your browser does not support the video tag.
     </video>
   </div>
   <div class="media-info">
@@ -365,7 +368,6 @@ bpy.context.scene.frame_end   = <span class="c-num">365</span>
     <div class="media-desc">The rendered Mercury animation output.</div>
   </div>
 </div>
-
     <!--
     <div class="media-card">
   <div class="media-embed">
